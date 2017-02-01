@@ -1,0 +1,176 @@
+
+.plane{
+	/*background-image: url("airplane6-300x225.png");*/
+	height:140px;
+	width:210px;
+	position:absolute;
+
+
+}
+
+#planeOne{
+	top: 30px;
+	background-image: url("plane-banner-red.png");
+	background-size: 100% 100%;
+	font-size:28px;
+	color: black;
+
+
+}
+
+#planeTwo{
+	
+	top: 180px;
+	background-image: url("plane-banner-blue.png");
+	background-size: 100% 100%;
+	font-size:28px;
+	color: black;
+
+}
+
+#planeThree{
+	top: 300px;
+	background-image: url("plane-banner-green.png");
+	background-size: 100% 100%;
+	font-size:28px;
+	color: black;
+}
+
+#sidebar{
+	
+	height:600px;
+	width: 50px;
+	background-color: #B8B8B8;
+	background-size: 100% 100%;
+	float: left;
+	border-radius: 3px;
+	
+}
+
+#gameboard{
+	height:500px;
+	width: 900px;
+	background: url("clouds-bg.jpg");
+	background-size: 100% 100%;
+	margin-left: 60px;
+	border-radius: 3px;
+
+}
+
+#startScreen{
+	height: 300px;
+	width: 400px;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	position: fixed;
+	left: 360px;
+	top: 100px;
+}
+
+#startScreen h1{
+	color:#0099FF;
+}
+
+#hide{
+	height:600px;
+	width: 195px;
+	background-color: white;
+	position: fixed;
+	left: 965px;
+	top: 8px;
+	z-index: 10;
+}
+
+#scoreboard{
+	height: 80px;
+	width:900px;
+	background-color: #99FF66;
+	margin-left: 60px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-radius: 3px;	
+}
+
+#scoreCard{
+height: 70px;
+width: 80px;
+background-color: #FFFF71;
+border-radius: 5px;
+position: relative;
+color: #353535;
+font-family: Arial;
+left: 650px;
+font-size: 20px;
+text-indent: 5px;
+}
+
+
+.myButton {
+	width: 40px;
+	background: #3498db;
+	border-radius: 10px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 10px 20px 10px 20px;
+	margin-left: 15px;
+	position: relative;
+	left: 30px;
+	top: -55px;  
+}
+
+.myButton:hover {
+	background: #3cb0fd;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.myButtonOne {
+	width: 40px;
+	background: #FF4D4D;
+	border-radius: 10px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 10px 20px 10px 20px;
+	margin-left: 15px;
+	position: relative;
+	left: 120px;
+	top: -88px;  
+}
+
+.myButtonOne:hover {
+	background: #FF7F7F;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+#bannerOne{
+position: relative;
+top: 19px;
+left: 33px;
+
+}
+#bannerTwo{
+position: relative;
+top: 19px;
+left: 33px;
+
+}
+#bannerThree{
+position: relative;
+top: 19px;
+left: 33px;
+
+}
+
+#gameMusic{
+	position: absolute;
+	left: 320px;
+	top: 545px;
+}
+
