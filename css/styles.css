@@ -724,6 +724,11 @@ ul.social-buttons li a:active {
   opacity: 0;
   display: none;
 }
+
+.about-me-img{
+  width: 100%;
+}
+
 ::-moz-selection {
   text-shadow: none;
   background: #14BDFF;
@@ -739,11 +744,11 @@ img::-moz-selection {
   background: transparent;
 }
 
-.pad-top{
+div .pad-top{
   padding-top: 30px;
 }
 
-.pad-bottom{
+div .pad-bottom{
   padding-bottom: 30px;
 }
 
